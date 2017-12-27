@@ -13,10 +13,11 @@ class Solution(object):
         :type R: int
         :rtype: TreeNode
         """
-        while (root.val<L):
-        	root=root.right
-        while (root.val>R):
-        	root=root.left
+        while (root.val<L or root.val>R):
+        	if (root.val<L):
+        		root=root.right
+        	else:
+        		root=root.left
         if (root.val==L):
         	root.left=None
         if (root.val==R):
