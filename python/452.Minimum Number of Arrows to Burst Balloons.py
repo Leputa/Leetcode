@@ -6,7 +6,7 @@ class Solution:
         """
         points=sorted(points,key=lambda x:x[1])
        	cnt=0
-       	end=0
+       	end=-9999999999999999999999
        	for i in range(len(points)):
        		if (points[i][0]>end):
        			cnt+=1
