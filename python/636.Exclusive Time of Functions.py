@@ -28,7 +28,6 @@ class Solution:
         		if(preLogList[1]=="start"):
         			dic[log[0]]+=1
         		stack.pop()
-
         ans=[]
         for i in range(n):
         	ans.append(dic[i])
