@@ -28,14 +28,8 @@ class Solution:
         return head.next
 
 
-node1=ListNode(1)
-node1.next=ListNode(2)
 
-node2=ListNode(1)
-node2.next=ListNode(2)
 
-lists=[node1,node2]
-Solution().mergeKLists(lists)
 
 
 
