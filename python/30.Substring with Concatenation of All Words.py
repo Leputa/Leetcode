@@ -28,7 +28,7 @@ class Solution(object):
                         break
                 j += length
                 tmpString = s[j:j+length]
-        
+                
         return ret
             
 
