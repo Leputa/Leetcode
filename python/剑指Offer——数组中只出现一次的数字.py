@@ -18,7 +18,6 @@ class Solution:
             result = result >> 1 
             pos = pos << 1
 
-
         a,b = 0,0
 
         for num in array:
