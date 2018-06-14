@@ -2,9 +2,10 @@
 class Solution:
     def IsContinuous(self, numbers):
         # write code here
+        if len(numbers) == 0:
+            return False
+        
         numbers.sort()
-
-        print(numbers)
         zero_cnt = 0
         pos = 0
         for i in range(len(numbers)):
