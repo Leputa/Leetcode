@@ -32,7 +32,7 @@ class Solution(object):
         heapq.heapify(heap)
         while heap:
         	stack=[]
-        	cnt=0
+        	cnt=0                          
         	for _ in range(n):
         		if heap:
         			c=heapq.heappop(heap)
@@ -41,7 +41,7 @@ class Solution(object):
         				stack.append(c+1)   #每次只取一个，最后还要放回去
         	for item in stack:
         		heapq.heappush(heap,item)
-        	#ans +=heap and n or cnt
+        	#ans += heap and n or cnt
         	if heap:
         		ans+=n
         	else:
