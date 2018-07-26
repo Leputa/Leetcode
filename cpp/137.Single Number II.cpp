@@ -17,7 +17,7 @@ class Solution {
 				}
 			} 
 			for (int i=0; i<32; i++) 
-				result |= (count[i]<<i);
+				result += (count[i]<<i);    //用|=速度要快些，但对我而言不太好理解 
 			return result; 
 	    }   
 };
