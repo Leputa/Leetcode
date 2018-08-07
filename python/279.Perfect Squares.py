@@ -14,11 +14,5 @@ class Solution:
                 s -= 1
         return dp[n]
 
-
-
-
-
-
-
 if __name__ == '__main__':
     print(Solution().numSquares(3081))
