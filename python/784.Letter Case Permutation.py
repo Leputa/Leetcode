@@ -8,7 +8,6 @@ class Solution:
         self.traceback(list(S), 0, res, '')
         return res
 
-
     def traceback(self, S, i, res, ans):
         if i == len(S):
             res.append(ans)
@@ -25,8 +24,6 @@ class Solution:
             self.traceback(S, i+1, res, ans + S[i])
 
     
-
-
 
 if __name__ == '__main__':
     print(Solution().letterCasePermutation("a1b2"))
