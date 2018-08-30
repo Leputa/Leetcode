@@ -26,15 +26,5 @@ class Solution:
                 i += 1
             i += 1
 
-
-
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
     print(Solution().subsetsWithDup([1,2,2]))
