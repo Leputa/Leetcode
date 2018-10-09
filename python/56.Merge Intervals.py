@@ -20,13 +20,15 @@ class Solution:
         for i in range(1, len(intervals)):
             this_start = intervals[i].start
             this_end = intervals[i].end
-            if this_start <= tmp_interval:
-                tmp_interval.end = this_end
-                if i == len(intervals) - 1:
-                    ret.append(tmp_interval)
+            if this_start <= tmp_interval.end:
+                if this_end > tmp_interval.end:
+                    tmp_interval.end = this_end
             else:
                 ret.append(tmp_interval)
                 tmp_interval = Interval(intervals[i].start, intervals[i].end)
+
+            if i == len(intervals) - 1:
+                    ret.append(tmp_interval)
 
         return ret
             
