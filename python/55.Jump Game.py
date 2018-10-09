@@ -16,9 +16,6 @@ class Solution:
                 else:
                     zero_index.append(i)
 
-        print(zero_index)
-        print(tmp_zero)
-
         for i in range(len(zero_index)):
             pos = zero_index[i]
 
