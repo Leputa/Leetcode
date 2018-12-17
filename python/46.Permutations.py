@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         ans=[]
-        tag=[False]*len(nums)
+        tag=[False] * len(nums)
         self.getPermute(nums,ans,[],tag)
         return ans
     
