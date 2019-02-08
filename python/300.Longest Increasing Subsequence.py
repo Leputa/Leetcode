@@ -1,5 +1,5 @@
 class Solution(object):
-    def lengthOfLIS(self, nums):
+    def lengthOfLIS_v1(self, nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -15,6 +15,22 @@ class Solution(object):
             if d > ret:
                 ret = d
         return ret
+
+    def lengthOfLIS(self, nums):
+
+
+    def getPosition(self, lis, num):
+        low, high = 0, len(lis) - 1
+        while(low < high):
+            mid = (low + high) // 2
+            if lis[mid] < num:
+                low = mid + 1
+            elif lis[mid] > num:
+                high = mid - 1
+            else:
+                return mid
+        
+
 
 #上述解法效率过低
 
