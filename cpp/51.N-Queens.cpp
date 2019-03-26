@@ -37,7 +37,7 @@ private:
 				R[row]=1;
 				U[col+row]=1;
 				D[col-row+(n+1)]=1;
-				p[row] = col;               //row和col可以交换，转置矩阵.... 
+				p[row] = col;
 				getPosition(col+1, n, R, U, D, p, result);
 				R[row]=0;
 				U[col+row]=0;
