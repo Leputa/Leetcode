@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o"
   "CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o"
   "CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o"
+  "CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o"
   "cpp.pdb"
   "cpp"
 )

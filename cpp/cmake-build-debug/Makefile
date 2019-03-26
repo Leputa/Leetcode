@@ -204,6 +204,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.s
 .PHONY : 63.Unique_Paths_II.cpp.s
 
+64.Minimum_Path_Sum.o: 64.Minimum_Path_Sum.cpp.o
+
+.PHONY : 64.Minimum_Path_Sum.o
+
+# target to build an object file
+64.Minimum_Path_Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o
+.PHONY : 64.Minimum_Path_Sum.cpp.o
+
+64.Minimum_Path_Sum.i: 64.Minimum_Path_Sum.cpp.i
+
+.PHONY : 64.Minimum_Path_Sum.i
+
+# target to preprocess a source file
+64.Minimum_Path_Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.i
+.PHONY : 64.Minimum_Path_Sum.cpp.i
+
+64.Minimum_Path_Sum.s: 64.Minimum_Path_Sum.cpp.s
+
+.PHONY : 64.Minimum_Path_Sum.s
+
+# target to generate assembly for a file
+64.Minimum_Path_Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.s
+.PHONY : 64.Minimum_Path_Sum.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... 63.Unique_Paths_II.o"
 	@echo "... 63.Unique_Paths_II.i"
 	@echo "... 63.Unique_Paths_II.s"
+	@echo "... 64.Minimum_Path_Sum.o"
+	@echo "... 64.Minimum_Path_Sum.i"
+	@echo "... 64.Minimum_Path_Sum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
