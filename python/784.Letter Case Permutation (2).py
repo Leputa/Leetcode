@@ -23,5 +23,8 @@ class Solution(object):
     			self.traceback(S, ret, i+1)
     			S = S[:i] + S[i].upper() + S[i+1:]
 
+if __name__ == "__main__":
+    print(Solution().letterCasePermutation("a1b2"))
+
 
 
