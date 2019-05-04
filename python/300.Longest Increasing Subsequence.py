@@ -16,9 +16,6 @@ class Solution(object):
                 ret = d
         return ret
 
-    def lengthOfLIS(self, nums):
-
-
     def getPosition(self, lis, num):
         low, high = 0, len(lis) - 1
         while(low < high):
@@ -36,4 +33,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print(Solution().lengthOfLIS([10,9,2,5,3,7,101,18]))
+    print(Solution().lengthOfLIS_v1([10,9,2,5,3,7,101,18]))
