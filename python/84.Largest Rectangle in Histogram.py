@@ -6,7 +6,6 @@ class Solution:
         max_area = 0
         i = 0
         while(i < len(heights)):
-            # print(stack, max_area)
             if len(stack) == 0 or heights[i] >= heights[stack[len(stack) - 1]]:
                 stack.append(i)
                 i += 1
