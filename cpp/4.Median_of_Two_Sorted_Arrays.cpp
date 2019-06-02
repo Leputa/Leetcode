@@ -1,17 +1,17 @@
-# include <iostream>
-# include <vector>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        // &:´«ÒýÓÃ
+        // &:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int length1 = nums1.size();
 		int length2 = nums2.size();
 		if (length1 < length2) return findMedianSortedArrays(nums2, nums1);
 		// length1 > length2
 		
-		int lo = 0, hi = length2 * 2;  //ÓÃ³ËÒÔ2À´ÐéÄâ#ºÅ 
+		int lo = 0, hi = length2 * 2;  //ï¿½Ã³ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½#ï¿½ï¿½ 
 		while(lo <= hi){
 			int mid2 = (lo + hi) / 2;
 			int mid1 = length1 + length2 - mid2;
@@ -29,12 +29,3 @@ public:
     }
 };
 
-
-int main(){
-	Solution solution = Solution();
-	vector<int>nums1 = {1, 3, 5};
-	vector<int>nums2 = {2, 4};
-	cout << solution.findMedianSortedArrays(nums1, nums2) <<endl;
-	
-	
-}

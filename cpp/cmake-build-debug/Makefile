@@ -123,113 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-53.Maximum_Subarray.o: 53.Maximum_Subarray.cpp.o
+121_Best_Time_to_Buy_and_Sell_Stock.o: 121_Best_Time_to_Buy_and_Sell_Stock.cpp.o
 
-.PHONY : 53.Maximum_Subarray.o
-
-# target to build an object file
-53.Maximum_Subarray.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o
-.PHONY : 53.Maximum_Subarray.cpp.o
-
-53.Maximum_Subarray.i: 53.Maximum_Subarray.cpp.i
-
-.PHONY : 53.Maximum_Subarray.i
-
-# target to preprocess a source file
-53.Maximum_Subarray.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.i
-.PHONY : 53.Maximum_Subarray.cpp.i
-
-53.Maximum_Subarray.s: 53.Maximum_Subarray.cpp.s
-
-.PHONY : 53.Maximum_Subarray.s
-
-# target to generate assembly for a file
-53.Maximum_Subarray.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.s
-.PHONY : 53.Maximum_Subarray.cpp.s
-
-62.Unique_Paths.o: 62.Unique_Paths.cpp.o
-
-.PHONY : 62.Unique_Paths.o
+.PHONY : 121_Best_Time_to_Buy_and_Sell_Stock.o
 
 # target to build an object file
-62.Unique_Paths.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o
-.PHONY : 62.Unique_Paths.cpp.o
+121_Best_Time_to_Buy_and_Sell_Stock.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.o
+.PHONY : 121_Best_Time_to_Buy_and_Sell_Stock.cpp.o
 
-62.Unique_Paths.i: 62.Unique_Paths.cpp.i
+121_Best_Time_to_Buy_and_Sell_Stock.i: 121_Best_Time_to_Buy_and_Sell_Stock.cpp.i
 
-.PHONY : 62.Unique_Paths.i
-
-# target to preprocess a source file
-62.Unique_Paths.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/62.Unique_Paths.cpp.i
-.PHONY : 62.Unique_Paths.cpp.i
-
-62.Unique_Paths.s: 62.Unique_Paths.cpp.s
-
-.PHONY : 62.Unique_Paths.s
-
-# target to generate assembly for a file
-62.Unique_Paths.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/62.Unique_Paths.cpp.s
-.PHONY : 62.Unique_Paths.cpp.s
-
-63.Unique_Paths_II.o: 63.Unique_Paths_II.cpp.o
-
-.PHONY : 63.Unique_Paths_II.o
-
-# target to build an object file
-63.Unique_Paths_II.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o
-.PHONY : 63.Unique_Paths_II.cpp.o
-
-63.Unique_Paths_II.i: 63.Unique_Paths_II.cpp.i
-
-.PHONY : 63.Unique_Paths_II.i
+.PHONY : 121_Best_Time_to_Buy_and_Sell_Stock.i
 
 # target to preprocess a source file
-63.Unique_Paths_II.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.i
-.PHONY : 63.Unique_Paths_II.cpp.i
+121_Best_Time_to_Buy_and_Sell_Stock.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.i
+.PHONY : 121_Best_Time_to_Buy_and_Sell_Stock.cpp.i
 
-63.Unique_Paths_II.s: 63.Unique_Paths_II.cpp.s
+121_Best_Time_to_Buy_and_Sell_Stock.s: 121_Best_Time_to_Buy_and_Sell_Stock.cpp.s
 
-.PHONY : 63.Unique_Paths_II.s
-
-# target to generate assembly for a file
-63.Unique_Paths_II.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.s
-.PHONY : 63.Unique_Paths_II.cpp.s
-
-64.Minimum_Path_Sum.o: 64.Minimum_Path_Sum.cpp.o
-
-.PHONY : 64.Minimum_Path_Sum.o
-
-# target to build an object file
-64.Minimum_Path_Sum.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o
-.PHONY : 64.Minimum_Path_Sum.cpp.o
-
-64.Minimum_Path_Sum.i: 64.Minimum_Path_Sum.cpp.i
-
-.PHONY : 64.Minimum_Path_Sum.i
-
-# target to preprocess a source file
-64.Minimum_Path_Sum.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.i
-.PHONY : 64.Minimum_Path_Sum.cpp.i
-
-64.Minimum_Path_Sum.s: 64.Minimum_Path_Sum.cpp.s
-
-.PHONY : 64.Minimum_Path_Sum.s
+.PHONY : 121_Best_Time_to_Buy_and_Sell_Stock.s
 
 # target to generate assembly for a file
-64.Minimum_Path_Sum.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.s
-.PHONY : 64.Minimum_Path_Sum.cpp.s
+121_Best_Time_to_Buy_and_Sell_Stock.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.s
+.PHONY : 121_Best_Time_to_Buy_and_Sell_Stock.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,18 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... 53.Maximum_Subarray.o"
-	@echo "... 53.Maximum_Subarray.i"
-	@echo "... 53.Maximum_Subarray.s"
-	@echo "... 62.Unique_Paths.o"
-	@echo "... 62.Unique_Paths.i"
-	@echo "... 62.Unique_Paths.s"
-	@echo "... 63.Unique_Paths_II.o"
-	@echo "... 63.Unique_Paths_II.i"
-	@echo "... 63.Unique_Paths_II.s"
-	@echo "... 64.Minimum_Path_Sum.o"
-	@echo "... 64.Minimum_Path_Sum.i"
-	@echo "... 64.Minimum_Path_Sum.s"
+	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.o"
+	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.i"
+	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

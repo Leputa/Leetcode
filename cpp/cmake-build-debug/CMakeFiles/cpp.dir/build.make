@@ -70,77 +70,32 @@ CMakeFiles/cpp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/main.cpp" -o CMakeFiles/cpp.dir/main.cpp.s
 
-CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o: ../53.Maximum\ Subarray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o -c "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/53.Maximum Subarray.cpp"
+CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.o: ../121_Best_Time_to_Buy_and_Sell_Stock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.o -c "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/121_Best_Time_to_Buy_and_Sell_Stock.cpp"
 
-CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/53.Maximum Subarray.cpp" > CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.i
+CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/121_Best_Time_to_Buy_and_Sell_Stock.cpp" > CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.i
 
-CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/53.Maximum Subarray.cpp" -o CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.s
-
-CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o: ../62.Unique\ Paths.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o -c "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/62.Unique Paths.cpp"
-
-CMakeFiles/cpp.dir/62.Unique_Paths.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/62.Unique_Paths.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/62.Unique Paths.cpp" > CMakeFiles/cpp.dir/62.Unique_Paths.cpp.i
-
-CMakeFiles/cpp.dir/62.Unique_Paths.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/62.Unique_Paths.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/62.Unique Paths.cpp" -o CMakeFiles/cpp.dir/62.Unique_Paths.cpp.s
-
-CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o: ../63.Unique\ Paths\ II.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o -c "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/63.Unique Paths II.cpp"
-
-CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/63.Unique Paths II.cpp" > CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.i
-
-CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/63.Unique Paths II.cpp" -o CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.s
-
-CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o: ../64.Minimum\ Path\ Sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o -c "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/64.Minimum Path Sum.cpp"
-
-CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/64.Minimum Path Sum.cpp" > CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.i
-
-CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/64.Minimum Path Sum.cpp" -o CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.s
+CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/121_Best_Time_to_Buy_and_Sell_Stock.cpp" -o CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
 "CMakeFiles/cpp.dir/main.cpp.o" \
-"CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o" \
-"CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o" \
-"CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o" \
-"CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o"
+"CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
 cpp: CMakeFiles/cpp.dir/main.cpp.o
-cpp: CMakeFiles/cpp.dir/53.Maximum_Subarray.cpp.o
-cpp: CMakeFiles/cpp.dir/62.Unique_Paths.cpp.o
-cpp: CMakeFiles/cpp.dir/63.Unique_Paths_II.cpp.o
-cpp: CMakeFiles/cpp.dir/64.Minimum_Path_Sum.cpp.o
+cpp: CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
