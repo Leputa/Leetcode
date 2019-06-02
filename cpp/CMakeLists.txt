@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp main.cpp 121_Best_Time_to_Buy_and_Sell_Stock.cpp)
+add_executable(cpp main.cpp 121_Best_Time_to_Buy_and_Sell_Stock.cpp 122_Best_Time_to_Buy_and_Sell_Stock_II.cpp)

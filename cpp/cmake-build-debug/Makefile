@@ -150,6 +150,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/121_Best_Time_to_Buy_and_Sell_Stock.cpp.s
 .PHONY : 121_Best_Time_to_Buy_and_Sell_Stock.cpp.s
 
+122_Best_Time_to_Buy_and_Sell_Stock_II.o: 122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.o
+
+.PHONY : 122_Best_Time_to_Buy_and_Sell_Stock_II.o
+
+# target to build an object file
+122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.o
+.PHONY : 122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.o
+
+122_Best_Time_to_Buy_and_Sell_Stock_II.i: 122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.i
+
+.PHONY : 122_Best_Time_to_Buy_and_Sell_Stock_II.i
+
+# target to preprocess a source file
+122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.i
+.PHONY : 122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.i
+
+122_Best_Time_to_Buy_and_Sell_Stock_II.s: 122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.s
+
+.PHONY : 122_Best_Time_to_Buy_and_Sell_Stock_II.s
+
+# target to generate assembly for a file
+122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.s
+.PHONY : 122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.o"
 	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.i"
 	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.s"
+	@echo "... 122_Best_Time_to_Buy_and_Sell_Stock_II.o"
+	@echo "... 122_Best_Time_to_Buy_and_Sell_Stock_II.i"
+	@echo "... 122_Best_Time_to_Buy_and_Sell_Stock_II.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
