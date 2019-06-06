@@ -204,6 +204,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/123_Best_Time_to_Buy_and_Sell_Stock_III.cpp.s
 .PHONY : 123_Best_Time_to_Buy_and_Sell_Stock_III.cpp.s
 
+131.Palindrome_Partitioning.o: 131.Palindrome_Partitioning.cpp.o
+
+.PHONY : 131.Palindrome_Partitioning.o
+
+# target to build an object file
+131.Palindrome_Partitioning.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/131.Palindrome_Partitioning.cpp.o
+.PHONY : 131.Palindrome_Partitioning.cpp.o
+
+131.Palindrome_Partitioning.i: 131.Palindrome_Partitioning.cpp.i
+
+.PHONY : 131.Palindrome_Partitioning.i
+
+# target to preprocess a source file
+131.Palindrome_Partitioning.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/131.Palindrome_Partitioning.cpp.i
+.PHONY : 131.Palindrome_Partitioning.cpp.i
+
+131.Palindrome_Partitioning.s: 131.Palindrome_Partitioning.cpp.s
+
+.PHONY : 131.Palindrome_Partitioning.s
+
+# target to generate assembly for a file
+131.Palindrome_Partitioning.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/131.Palindrome_Partitioning.cpp.s
+.PHONY : 131.Palindrome_Partitioning.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... 123_Best_Time_to_Buy_and_Sell_Stock_III.o"
 	@echo "... 123_Best_Time_to_Buy_and_Sell_Stock_III.i"
 	@echo "... 123_Best_Time_to_Buy_and_Sell_Stock_III.s"
+	@echo "... 131.Palindrome_Partitioning.o"
+	@echo "... 131.Palindrome_Partitioning.i"
+	@echo "... 131.Palindrome_Partitioning.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
