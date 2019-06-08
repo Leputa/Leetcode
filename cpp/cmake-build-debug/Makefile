@@ -231,6 +231,60 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/131.Palindrome_Partitioning.cpp.s
 .PHONY : 131.Palindrome_Partitioning.cpp.s
 
+132.Palindrome_Partitioning_II_.o: 132.Palindrome_Partitioning_II_.cpp.o
+
+.PHONY : 132.Palindrome_Partitioning_II_.o
+
+# target to build an object file
+132.Palindrome_Partitioning_II_.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/132.Palindrome_Partitioning_II_.cpp.o
+.PHONY : 132.Palindrome_Partitioning_II_.cpp.o
+
+132.Palindrome_Partitioning_II_.i: 132.Palindrome_Partitioning_II_.cpp.i
+
+.PHONY : 132.Palindrome_Partitioning_II_.i
+
+# target to preprocess a source file
+132.Palindrome_Partitioning_II_.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/132.Palindrome_Partitioning_II_.cpp.i
+.PHONY : 132.Palindrome_Partitioning_II_.cpp.i
+
+132.Palindrome_Partitioning_II_.s: 132.Palindrome_Partitioning_II_.cpp.s
+
+.PHONY : 132.Palindrome_Partitioning_II_.s
+
+# target to generate assembly for a file
+132.Palindrome_Partitioning_II_.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/132.Palindrome_Partitioning_II_.cpp.s
+.PHONY : 132.Palindrome_Partitioning_II_.cpp.s
+
+134.Gas_Station.o: 134.Gas_Station.cpp.o
+
+.PHONY : 134.Gas_Station.o
+
+# target to build an object file
+134.Gas_Station.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/134.Gas_Station.cpp.o
+.PHONY : 134.Gas_Station.cpp.o
+
+134.Gas_Station.i: 134.Gas_Station.cpp.i
+
+.PHONY : 134.Gas_Station.i
+
+# target to preprocess a source file
+134.Gas_Station.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/134.Gas_Station.cpp.i
+.PHONY : 134.Gas_Station.cpp.i
+
+134.Gas_Station.s: 134.Gas_Station.cpp.s
+
+.PHONY : 134.Gas_Station.s
+
+# target to generate assembly for a file
+134.Gas_Station.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/134.Gas_Station.cpp.s
+.PHONY : 134.Gas_Station.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -279,6 +333,12 @@ help:
 	@echo "... 131.Palindrome_Partitioning.o"
 	@echo "... 131.Palindrome_Partitioning.i"
 	@echo "... 131.Palindrome_Partitioning.s"
+	@echo "... 132.Palindrome_Partitioning_II_.o"
+	@echo "... 132.Palindrome_Partitioning_II_.i"
+	@echo "... 132.Palindrome_Partitioning_II_.s"
+	@echo "... 134.Gas_Station.o"
+	@echo "... 134.Gas_Station.i"
+	@echo "... 134.Gas_Station.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

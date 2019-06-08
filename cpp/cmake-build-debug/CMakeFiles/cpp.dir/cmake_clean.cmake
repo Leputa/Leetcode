@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/122_Best_Time_to_Buy_and_Sell_Stock_II.cpp.o"
   "CMakeFiles/cpp.dir/123_Best_Time_to_Buy_and_Sell_Stock_III.cpp.o"
   "CMakeFiles/cpp.dir/131.Palindrome_Partitioning.cpp.o"
+  "CMakeFiles/cpp.dir/132.Palindrome_Partitioning_II_.cpp.o"
+  "CMakeFiles/cpp.dir/134.Gas_Station.cpp.o"
   "cpp.pdb"
   "cpp"
 )
