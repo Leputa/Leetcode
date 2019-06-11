@@ -37,7 +37,6 @@ class Solution:
         for i in range(len(ratings)-2, -1, -1):
             if ratings[i] > ratings[i+1]:
                 candy[i] = max(candy[i], candy[i+1] + 1)
-        print(candy)
         return sum(candy)
 
         
