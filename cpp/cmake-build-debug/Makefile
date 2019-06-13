@@ -285,6 +285,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/134.Gas_Station.cpp.s
 .PHONY : 134.Gas_Station.cpp.s
 
+146.LRU_Cache.o: 146.LRU_Cache.cpp.o
+
+.PHONY : 146.LRU_Cache.o
+
+# target to build an object file
+146.LRU_Cache.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/146.LRU_Cache.cpp.o
+.PHONY : 146.LRU_Cache.cpp.o
+
+146.LRU_Cache.i: 146.LRU_Cache.cpp.i
+
+.PHONY : 146.LRU_Cache.i
+
+# target to preprocess a source file
+146.LRU_Cache.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/146.LRU_Cache.cpp.i
+.PHONY : 146.LRU_Cache.cpp.i
+
+146.LRU_Cache.s: 146.LRU_Cache.cpp.s
+
+.PHONY : 146.LRU_Cache.s
+
+# target to generate assembly for a file
+146.LRU_Cache.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/146.LRU_Cache.cpp.s
+.PHONY : 146.LRU_Cache.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -339,6 +366,9 @@ help:
 	@echo "... 134.Gas_Station.o"
 	@echo "... 134.Gas_Station.i"
 	@echo "... 134.Gas_Station.s"
+	@echo "... 146.LRU_Cache.o"
+	@echo "... 146.LRU_Cache.i"
+	@echo "... 146.LRU_Cache.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

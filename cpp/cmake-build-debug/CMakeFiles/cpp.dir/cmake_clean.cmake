@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/131.Palindrome_Partitioning.cpp.o"
   "CMakeFiles/cpp.dir/132.Palindrome_Partitioning_II_.cpp.o"
   "CMakeFiles/cpp.dir/134.Gas_Station.cpp.o"
+  "CMakeFiles/cpp.dir/146.LRU_Cache.cpp.o"
   "cpp.pdb"
   "cpp"
 )
