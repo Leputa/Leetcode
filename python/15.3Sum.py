@@ -54,8 +54,32 @@ class Solution:
         			ans.append([nums[i],nums[j],-(nums[i]+nums[j])])
 
        	return ans
+
+
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+      ret = []
+      if len(nums) < 3:
+        return ret
+
+      nums = sorted(nums)
+
+      dic = dict()
+      for i in range(len(nums)):
+        dic[nums[i]] = i
+      i = 0
+      while( i < len(nums) - 1):
+        j = i + 1
+        while ( j < len(nums)):
+          t = - (nums[i] + nums[j])
+          if dic.get(t) != None and dic[t] > j:
+            ret.append([nums[i], nums[j], t])
+            j = dic[nums[j]]
+          i = dic[nums[i]] 
+          j += 1
+        i += 1
+
+      return ret
        
-
-
 
 print(Solution().threeSum([-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6]))

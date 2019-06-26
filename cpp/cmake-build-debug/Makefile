@@ -312,6 +312,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/146.LRU_Cache.cpp.s
 .PHONY : 146.LRU_Cache.cpp.s
 
+15.3Sum.o: 15.3Sum.cpp.o
+
+.PHONY : 15.3Sum.o
+
+# target to build an object file
+15.3Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/15.3Sum.cpp.o
+.PHONY : 15.3Sum.cpp.o
+
+15.3Sum.i: 15.3Sum.cpp.i
+
+.PHONY : 15.3Sum.i
+
+# target to preprocess a source file
+15.3Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/15.3Sum.cpp.i
+.PHONY : 15.3Sum.cpp.i
+
+15.3Sum.s: 15.3Sum.cpp.s
+
+.PHONY : 15.3Sum.s
+
+# target to generate assembly for a file
+15.3Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/15.3Sum.cpp.s
+.PHONY : 15.3Sum.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -369,6 +396,9 @@ help:
 	@echo "... 146.LRU_Cache.o"
 	@echo "... 146.LRU_Cache.i"
 	@echo "... 146.LRU_Cache.s"
+	@echo "... 15.3Sum.o"
+	@echo "... 15.3Sum.i"
+	@echo "... 15.3Sum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

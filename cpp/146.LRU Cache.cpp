@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-#include <map>
+#include <unordered_map>
 using namespace std;
 
 class Node{
@@ -22,8 +22,8 @@ private:
     Node *headNode;
     Node *tailNode;
     int cap;
-    map<int, Node*>lru_map;
-    map<int, Node*>::iterator it;
+    unordered_map<int, Node*>lru_map;
+    unordered_map<int, Node*>::iterator it;
 
     void remove2tail(Node *node) {
         node -> pre -> next =  node -> next;
