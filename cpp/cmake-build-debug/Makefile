@@ -48,10 +48,10 @@ RM = /Applications/IDE/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp"
+CMAKE_SOURCE_DIR = "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/limengyuan/Documents/Computer Science/Leetcode/cpp/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ cpp: cmake_check_build_system
 cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
+
+1.Two_Sum.o: 1.Two_Sum.cpp.o
+
+.PHONY : 1.Two_Sum.o
+
+# target to build an object file
+1.Two_Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/1.Two_Sum.cpp.o
+.PHONY : 1.Two_Sum.cpp.o
+
+1.Two_Sum.i: 1.Two_Sum.cpp.i
+
+.PHONY : 1.Two_Sum.i
+
+# target to preprocess a source file
+1.Two_Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/1.Two_Sum.cpp.i
+.PHONY : 1.Two_Sum.cpp.i
+
+1.Two_Sum.s: 1.Two_Sum.cpp.s
+
+.PHONY : 1.Two_Sum.s
+
+# target to generate assembly for a file
+1.Two_Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/1.Two_Sum.cpp.s
+.PHONY : 1.Two_Sum.cpp.s
 
 121_Best_Time_to_Buy_and_Sell_Stock.o: 121_Best_Time_to_Buy_and_Sell_Stock.cpp.o
 
@@ -375,6 +402,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
+	@echo "... 1.Two_Sum.o"
+	@echo "... 1.Two_Sum.i"
+	@echo "... 1.Two_Sum.s"
 	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.o"
 	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.i"
 	@echo "... 121_Best_Time_to_Buy_and_Sell_Stock.s"

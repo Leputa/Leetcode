@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/134.Gas_Station.cpp.o"
   "CMakeFiles/cpp.dir/146.LRU_Cache.cpp.o"
   "CMakeFiles/cpp.dir/15.3Sum.cpp.o"
+  "CMakeFiles/cpp.dir/1.Two_Sum.cpp.o"
   "cpp.pdb"
   "cpp"
 )
