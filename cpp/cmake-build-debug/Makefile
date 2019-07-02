@@ -393,6 +393,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/16.3Sum_Closest.cpp.s
 .PHONY : 16.3Sum_Closest.cpp.s
 
+18.4Sum.o: 18.4Sum.cpp.o
+
+.PHONY : 18.4Sum.o
+
+# target to build an object file
+18.4Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/18.4Sum.cpp.o
+.PHONY : 18.4Sum.cpp.o
+
+18.4Sum.i: 18.4Sum.cpp.i
+
+.PHONY : 18.4Sum.i
+
+# target to preprocess a source file
+18.4Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/18.4Sum.cpp.i
+.PHONY : 18.4Sum.cpp.i
+
+18.4Sum.s: 18.4Sum.cpp.s
+
+.PHONY : 18.4Sum.s
+
+# target to generate assembly for a file
+18.4Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/18.4Sum.cpp.s
+.PHONY : 18.4Sum.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -459,6 +486,9 @@ help:
 	@echo "... 16.3Sum_Closest.o"
 	@echo "... 16.3Sum_Closest.i"
 	@echo "... 16.3Sum_Closest.s"
+	@echo "... 18.4Sum.o"
+	@echo "... 18.4Sum.i"
+	@echo "... 18.4Sum.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
