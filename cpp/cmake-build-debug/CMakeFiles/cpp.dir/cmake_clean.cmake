@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/1.Two_Sum.cpp.o"
   "CMakeFiles/cpp.dir/16.3Sum_Closest.cpp.o"
   "CMakeFiles/cpp.dir/18.4Sum.cpp.o"
+  "CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.o"
   "cpp.pdb"
   "cpp"
 )

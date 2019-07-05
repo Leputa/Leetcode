@@ -420,6 +420,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/18.4Sum.cpp.s
 .PHONY : 18.4Sum.cpp.s
 
+42.Trapping_Rain_Water.o: 42.Trapping_Rain_Water.cpp.o
+
+.PHONY : 42.Trapping_Rain_Water.o
+
+# target to build an object file
+42.Trapping_Rain_Water.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.o
+.PHONY : 42.Trapping_Rain_Water.cpp.o
+
+42.Trapping_Rain_Water.i: 42.Trapping_Rain_Water.cpp.i
+
+.PHONY : 42.Trapping_Rain_Water.i
+
+# target to preprocess a source file
+42.Trapping_Rain_Water.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.i
+.PHONY : 42.Trapping_Rain_Water.cpp.i
+
+42.Trapping_Rain_Water.s: 42.Trapping_Rain_Water.cpp.s
+
+.PHONY : 42.Trapping_Rain_Water.s
+
+# target to generate assembly for a file
+42.Trapping_Rain_Water.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.s
+.PHONY : 42.Trapping_Rain_Water.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -489,6 +516,9 @@ help:
 	@echo "... 18.4Sum.o"
 	@echo "... 18.4Sum.i"
 	@echo "... 18.4Sum.s"
+	@echo "... 42.Trapping_Rain_Water.o"
+	@echo "... 42.Trapping_Rain_Water.i"
+	@echo "... 42.Trapping_Rain_Water.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
