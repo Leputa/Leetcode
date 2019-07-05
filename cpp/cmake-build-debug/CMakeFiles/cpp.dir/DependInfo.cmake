@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/15.3Sum.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/15.3Sum.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/16.3Sum Closest.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/16.3Sum_Closest.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/18.4Sum.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/18.4Sum.cpp.o"
+  "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/20.Valid Parentheses.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/42.Trapping Rain Water.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/main.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o"
   )

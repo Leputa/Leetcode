@@ -420,6 +420,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/18.4Sum.cpp.s
 .PHONY : 18.4Sum.cpp.s
 
+20.Valid_Parentheses.o: 20.Valid_Parentheses.cpp.o
+
+.PHONY : 20.Valid_Parentheses.o
+
+# target to build an object file
+20.Valid_Parentheses.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.o
+.PHONY : 20.Valid_Parentheses.cpp.o
+
+20.Valid_Parentheses.i: 20.Valid_Parentheses.cpp.i
+
+.PHONY : 20.Valid_Parentheses.i
+
+# target to preprocess a source file
+20.Valid_Parentheses.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.i
+.PHONY : 20.Valid_Parentheses.cpp.i
+
+20.Valid_Parentheses.s: 20.Valid_Parentheses.cpp.s
+
+.PHONY : 20.Valid_Parentheses.s
+
+# target to generate assembly for a file
+20.Valid_Parentheses.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.s
+.PHONY : 20.Valid_Parentheses.cpp.s
+
 42.Trapping_Rain_Water.o: 42.Trapping_Rain_Water.cpp.o
 
 .PHONY : 42.Trapping_Rain_Water.o
@@ -516,6 +543,9 @@ help:
 	@echo "... 18.4Sum.o"
 	@echo "... 18.4Sum.i"
 	@echo "... 18.4Sum.s"
+	@echo "... 20.Valid_Parentheses.o"
+	@echo "... 20.Valid_Parentheses.i"
+	@echo "... 20.Valid_Parentheses.s"
 	@echo "... 42.Trapping_Rain_Water.o"
 	@echo "... 42.Trapping_Rain_Water.i"
 	@echo "... 42.Trapping_Rain_Water.s"
