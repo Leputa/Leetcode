@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.o"
   "CMakeFiles/cpp.dir/84.Largest_Rectangle_in_Histogram.cpp.o"
   "CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.o"
+  "CMakeFiles/cpp.dir/InversePairs.cpp.o"
   "cpp.pdb"
   "cpp"
 )

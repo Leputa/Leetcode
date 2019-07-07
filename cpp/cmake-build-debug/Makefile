@@ -528,6 +528,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.s
 .PHONY : 94.Binary_Tree_Inorder_Traversal.cpp.s
 
+InversePairs.o: InversePairs.cpp.o
+
+.PHONY : InversePairs.o
+
+# target to build an object file
+InversePairs.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/InversePairs.cpp.o
+.PHONY : InversePairs.cpp.o
+
+InversePairs.i: InversePairs.cpp.i
+
+.PHONY : InversePairs.i
+
+# target to preprocess a source file
+InversePairs.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/InversePairs.cpp.i
+.PHONY : InversePairs.cpp.i
+
+InversePairs.s: InversePairs.cpp.s
+
+.PHONY : InversePairs.s
+
+# target to generate assembly for a file
+InversePairs.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/InversePairs.cpp.s
+.PHONY : InversePairs.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -609,6 +636,9 @@ help:
 	@echo "... 94.Binary_Tree_Inorder_Traversal.o"
 	@echo "... 94.Binary_Tree_Inorder_Traversal.i"
 	@echo "... 94.Binary_Tree_Inorder_Traversal.s"
+	@echo "... InversePairs.o"
+	@echo "... InversePairs.i"
+	@echo "... InversePairs.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
