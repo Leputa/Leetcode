@@ -501,6 +501,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/84.Largest_Rectangle_in_Histogram.cpp.s
 .PHONY : 84.Largest_Rectangle_in_Histogram.cpp.s
 
+94.Binary_Tree_Inorder_Traversal.o: 94.Binary_Tree_Inorder_Traversal.cpp.o
+
+.PHONY : 94.Binary_Tree_Inorder_Traversal.o
+
+# target to build an object file
+94.Binary_Tree_Inorder_Traversal.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.o
+.PHONY : 94.Binary_Tree_Inorder_Traversal.cpp.o
+
+94.Binary_Tree_Inorder_Traversal.i: 94.Binary_Tree_Inorder_Traversal.cpp.i
+
+.PHONY : 94.Binary_Tree_Inorder_Traversal.i
+
+# target to preprocess a source file
+94.Binary_Tree_Inorder_Traversal.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.i
+.PHONY : 94.Binary_Tree_Inorder_Traversal.cpp.i
+
+94.Binary_Tree_Inorder_Traversal.s: 94.Binary_Tree_Inorder_Traversal.cpp.s
+
+.PHONY : 94.Binary_Tree_Inorder_Traversal.s
+
+# target to generate assembly for a file
+94.Binary_Tree_Inorder_Traversal.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.s
+.PHONY : 94.Binary_Tree_Inorder_Traversal.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -579,6 +606,9 @@ help:
 	@echo "... 84.Largest_Rectangle_in_Histogram.o"
 	@echo "... 84.Largest_Rectangle_in_Histogram.i"
 	@echo "... 84.Largest_Rectangle_in_Histogram.s"
+	@echo "... 94.Binary_Tree_Inorder_Traversal.o"
+	@echo "... 94.Binary_Tree_Inorder_Traversal.i"
+	@echo "... 94.Binary_Tree_Inorder_Traversal.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
