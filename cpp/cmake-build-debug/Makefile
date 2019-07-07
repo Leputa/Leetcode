@@ -474,6 +474,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.s
 .PHONY : 42.Trapping_Rain_Water.cpp.s
 
+84.Largest_Rectangle_in_Histogram.o: 84.Largest_Rectangle_in_Histogram.cpp.o
+
+.PHONY : 84.Largest_Rectangle_in_Histogram.o
+
+# target to build an object file
+84.Largest_Rectangle_in_Histogram.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/84.Largest_Rectangle_in_Histogram.cpp.o
+.PHONY : 84.Largest_Rectangle_in_Histogram.cpp.o
+
+84.Largest_Rectangle_in_Histogram.i: 84.Largest_Rectangle_in_Histogram.cpp.i
+
+.PHONY : 84.Largest_Rectangle_in_Histogram.i
+
+# target to preprocess a source file
+84.Largest_Rectangle_in_Histogram.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/84.Largest_Rectangle_in_Histogram.cpp.i
+.PHONY : 84.Largest_Rectangle_in_Histogram.cpp.i
+
+84.Largest_Rectangle_in_Histogram.s: 84.Largest_Rectangle_in_Histogram.cpp.s
+
+.PHONY : 84.Largest_Rectangle_in_Histogram.s
+
+# target to generate assembly for a file
+84.Largest_Rectangle_in_Histogram.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/84.Largest_Rectangle_in_Histogram.cpp.s
+.PHONY : 84.Largest_Rectangle_in_Histogram.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -549,6 +576,9 @@ help:
 	@echo "... 42.Trapping_Rain_Water.o"
 	@echo "... 42.Trapping_Rain_Water.i"
 	@echo "... 42.Trapping_Rain_Water.s"
+	@echo "... 84.Largest_Rectangle_in_Histogram.o"
+	@echo "... 84.Largest_Rectangle_in_Histogram.i"
+	@echo "... 84.Largest_Rectangle_in_Histogram.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
