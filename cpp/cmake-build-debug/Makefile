@@ -528,6 +528,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.s
 .PHONY : 94.Binary_Tree_Inorder_Traversal.cpp.s
 
+GetLeastNumbers.o: GetLeastNumbers.cpp.o
+
+.PHONY : GetLeastNumbers.o
+
+# target to build an object file
+GetLeastNumbers.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GetLeastNumbers.cpp.o
+.PHONY : GetLeastNumbers.cpp.o
+
+GetLeastNumbers.i: GetLeastNumbers.cpp.i
+
+.PHONY : GetLeastNumbers.i
+
+# target to preprocess a source file
+GetLeastNumbers.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GetLeastNumbers.cpp.i
+.PHONY : GetLeastNumbers.cpp.i
+
+GetLeastNumbers.s: GetLeastNumbers.cpp.s
+
+.PHONY : GetLeastNumbers.s
+
+# target to generate assembly for a file
+GetLeastNumbers.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GetLeastNumbers.cpp.s
+.PHONY : GetLeastNumbers.cpp.s
+
 InversePairs.o: InversePairs.cpp.o
 
 .PHONY : InversePairs.o
@@ -636,6 +663,9 @@ help:
 	@echo "... 94.Binary_Tree_Inorder_Traversal.o"
 	@echo "... 94.Binary_Tree_Inorder_Traversal.i"
 	@echo "... 94.Binary_Tree_Inorder_Traversal.s"
+	@echo "... GetLeastNumbers.o"
+	@echo "... GetLeastNumbers.i"
+	@echo "... GetLeastNumbers.s"
 	@echo "... InversePairs.o"
 	@echo "... InversePairs.i"
 	@echo "... InversePairs.s"

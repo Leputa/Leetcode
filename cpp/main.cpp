@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "InversePairs"
+#include "18.4Sum.cpp"
 
 using namespace std;
 

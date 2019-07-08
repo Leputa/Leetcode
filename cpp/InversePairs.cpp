@@ -23,8 +23,6 @@ private:
             if (aux[i] <= aux[j])
                 data[k++] = aux[i++];
             else{
-                // 前面的比后面的大， 构成逆序对
-                // i到mid有序，[i, mid]j均与j构成逆序对
                 data[k++] = aux[j++];
                 ret += mid - i + 1;
                 ret %= 1000000007;
