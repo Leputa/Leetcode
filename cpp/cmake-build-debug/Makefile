@@ -636,6 +636,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+maxInWindows.o: maxInWindows.cpp.o
+
+.PHONY : maxInWindows.o
+
+# target to build an object file
+maxInWindows.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/maxInWindows.cpp.o
+.PHONY : maxInWindows.cpp.o
+
+maxInWindows.i: maxInWindows.cpp.i
+
+.PHONY : maxInWindows.i
+
+# target to preprocess a source file
+maxInWindows.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/maxInWindows.cpp.i
+.PHONY : maxInWindows.cpp.i
+
+maxInWindows.s: maxInWindows.cpp.s
+
+.PHONY : maxInWindows.s
+
+# target to generate assembly for a file
+maxInWindows.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/maxInWindows.cpp.s
+.PHONY : maxInWindows.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -702,6 +729,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... maxInWindows.o"
+	@echo "... maxInWindows.i"
+	@echo "... maxInWindows.s"
 .PHONY : help
 
 

@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/InversePairs.cpp.o"
   "CMakeFiles/cpp.dir/GetLeastNumbers.cpp.o"
   "CMakeFiles/cpp.dir/GetUglyNumber.cpp.o"
+  "CMakeFiles/cpp.dir/maxInWindows.cpp.o"
   "cpp.pdb"
   "cpp"
 )
