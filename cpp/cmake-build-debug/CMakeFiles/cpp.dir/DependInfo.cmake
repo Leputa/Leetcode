@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/84.Largest Rectangle in Histogram.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/84.Largest_Rectangle_in_Histogram.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/94.Binary Tree Inorder Traversal.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/GetLeastNumbers.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/GetLeastNumbers.cpp.o"
+  "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/GetUglyNumber.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/GetUglyNumber.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/InversePairs.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/InversePairs.cpp.o"
   "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/main.cpp" "/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o"
   )

@@ -555,6 +555,33 @@ GetLeastNumbers.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GetLeastNumbers.cpp.s
 .PHONY : GetLeastNumbers.cpp.s
 
+GetUglyNumber.o: GetUglyNumber.cpp.o
+
+.PHONY : GetUglyNumber.o
+
+# target to build an object file
+GetUglyNumber.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GetUglyNumber.cpp.o
+.PHONY : GetUglyNumber.cpp.o
+
+GetUglyNumber.i: GetUglyNumber.cpp.i
+
+.PHONY : GetUglyNumber.i
+
+# target to preprocess a source file
+GetUglyNumber.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GetUglyNumber.cpp.i
+.PHONY : GetUglyNumber.cpp.i
+
+GetUglyNumber.s: GetUglyNumber.cpp.s
+
+.PHONY : GetUglyNumber.s
+
+# target to generate assembly for a file
+GetUglyNumber.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/GetUglyNumber.cpp.s
+.PHONY : GetUglyNumber.cpp.s
+
 InversePairs.o: InversePairs.cpp.o
 
 .PHONY : InversePairs.o
@@ -666,6 +693,9 @@ help:
 	@echo "... GetLeastNumbers.o"
 	@echo "... GetLeastNumbers.i"
 	@echo "... GetLeastNumbers.s"
+	@echo "... GetUglyNumber.o"
+	@echo "... GetUglyNumber.i"
+	@echo "... GetUglyNumber.s"
 	@echo "... InversePairs.o"
 	@echo "... InversePairs.i"
 	@echo "... InversePairs.s"

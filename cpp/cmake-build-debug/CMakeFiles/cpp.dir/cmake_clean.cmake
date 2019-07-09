@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/94.Binary_Tree_Inorder_Traversal.cpp.o"
   "CMakeFiles/cpp.dir/InversePairs.cpp.o"
   "CMakeFiles/cpp.dir/GetLeastNumbers.cpp.o"
+  "CMakeFiles/cpp.dir/GetUglyNumber.cpp.o"
   "cpp.pdb"
   "cpp"
 )
