@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/GetLeastNumbers.cpp.o"
   "CMakeFiles/cpp.dir/GetUglyNumber.cpp.o"
   "CMakeFiles/cpp.dir/maxInWindows.cpp.o"
+  "CMakeFiles/cpp.dir/33.Search_in_Rotated_Sorted_Array.cpp.o"
   "cpp.pdb"
   "cpp"
 )

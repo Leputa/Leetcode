@@ -447,6 +447,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.s
 .PHONY : 20.Valid_Parentheses.cpp.s
 
+33.Search_in_Rotated_Sorted_Array.o: 33.Search_in_Rotated_Sorted_Array.cpp.o
+
+.PHONY : 33.Search_in_Rotated_Sorted_Array.o
+
+# target to build an object file
+33.Search_in_Rotated_Sorted_Array.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/33.Search_in_Rotated_Sorted_Array.cpp.o
+.PHONY : 33.Search_in_Rotated_Sorted_Array.cpp.o
+
+33.Search_in_Rotated_Sorted_Array.i: 33.Search_in_Rotated_Sorted_Array.cpp.i
+
+.PHONY : 33.Search_in_Rotated_Sorted_Array.i
+
+# target to preprocess a source file
+33.Search_in_Rotated_Sorted_Array.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/33.Search_in_Rotated_Sorted_Array.cpp.i
+.PHONY : 33.Search_in_Rotated_Sorted_Array.cpp.i
+
+33.Search_in_Rotated_Sorted_Array.s: 33.Search_in_Rotated_Sorted_Array.cpp.s
+
+.PHONY : 33.Search_in_Rotated_Sorted_Array.s
+
+# target to generate assembly for a file
+33.Search_in_Rotated_Sorted_Array.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/33.Search_in_Rotated_Sorted_Array.cpp.s
+.PHONY : 33.Search_in_Rotated_Sorted_Array.cpp.s
+
 42.Trapping_Rain_Water.o: 42.Trapping_Rain_Water.cpp.o
 
 .PHONY : 42.Trapping_Rain_Water.o
@@ -708,6 +735,9 @@ help:
 	@echo "... 20.Valid_Parentheses.o"
 	@echo "... 20.Valid_Parentheses.i"
 	@echo "... 20.Valid_Parentheses.s"
+	@echo "... 33.Search_in_Rotated_Sorted_Array.o"
+	@echo "... 33.Search_in_Rotated_Sorted_Array.i"
+	@echo "... 33.Search_in_Rotated_Sorted_Array.s"
 	@echo "... 42.Trapping_Rain_Water.o"
 	@echo "... 42.Trapping_Rain_Water.i"
 	@echo "... 42.Trapping_Rain_Water.s"
