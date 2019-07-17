@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c5a43a3-8d0c-4187-a4c0-979ddf61f257" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/134.Gas Station.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/134.Gas Station.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="5c5a43a3-8d0c-4187-a4c0-979ddf61f257" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="41" />
     <option name="y" value="83" />
     <option name="width" value="948" />
@@ -220,18 +218,17 @@
       <workItem from="1562039006832" duration="8877000" />
       <workItem from="1562328344242" duration="10139000" />
       <workItem from="1562682851014" duration="2703000" />
-      <workItem from="1563158134431" duration="2717000" />
+      <workItem from="1563158134431" duration="2985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27144000" />
+    <option name="totallyTimeSpent" value="27412000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="37" width="948" height="815" extended-state="0" />
-    <editor active="true" />
+    <frame x="41" y="83" width="948" height="815" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05629139" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19536424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
