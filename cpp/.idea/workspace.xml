@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c5a43a3-8d0c-4187-a4c0-979ddf61f257" name="Default Changelist" comment="" />
+    <list default="true" id="5c5a43a3-8d0c-4187-a4c0-979ddf61f257" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/134.Gas Station.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/134.Gas Station.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,15 +24,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InversePairs.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GetLeastNumbers.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,11 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/33.Search in Rotated Sorted Array.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state>
+              <caret selection-end-line="27" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/134.Gas Station.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,12 +149,13 @@
         <option value="$PROJECT_DIR$/GetUglyNumber.cpp" />
         <option value="$PROJECT_DIR$/maxInWindows.cpp" />
         <option value="$PROJECT_DIR$/33.Search in Rotated Sorted Array.cpp" />
+        <option value="$PROJECT_DIR$/134.Gas Station.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="83" />
-    <option name="y" value="30" />
+    <option name="x" value="41" />
+    <option name="y" value="83" />
     <option name="width" value="948" />
     <option name="height" value="815" />
   </component>
@@ -214,18 +220,18 @@
       <workItem from="1562039006832" duration="8877000" />
       <workItem from="1562328344242" duration="10139000" />
       <workItem from="1562682851014" duration="2703000" />
-      <workItem from="1563158134431" duration="2108000" />
+      <workItem from="1563158134431" duration="2717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26535000" />
+    <option name="totallyTimeSpent" value="27144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="30" width="948" height="815" extended-state="0" />
+    <frame x="-7" y="37" width="948" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.299117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05629139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -457,8 +463,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/33.Search in Rotated Sorted Array.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state>
+          <caret selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/134.Gas Station.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
