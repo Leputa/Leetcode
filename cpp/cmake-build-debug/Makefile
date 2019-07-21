@@ -339,6 +339,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/146.LRU_Cache.cpp.s
 .PHONY : 146.LRU_Cache.cpp.s
 
+148.Sort_List.o: 148.Sort_List.cpp.o
+
+.PHONY : 148.Sort_List.o
+
+# target to build an object file
+148.Sort_List.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/148.Sort_List.cpp.o
+.PHONY : 148.Sort_List.cpp.o
+
+148.Sort_List.i: 148.Sort_List.cpp.i
+
+.PHONY : 148.Sort_List.i
+
+# target to preprocess a source file
+148.Sort_List.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/148.Sort_List.cpp.i
+.PHONY : 148.Sort_List.cpp.i
+
+148.Sort_List.s: 148.Sort_List.cpp.s
+
+.PHONY : 148.Sort_List.s
+
+# target to generate assembly for a file
+148.Sort_List.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/148.Sort_List.cpp.s
+.PHONY : 148.Sort_List.cpp.s
+
 15.3Sum.o: 15.3Sum.cpp.o
 
 .PHONY : 15.3Sum.o
@@ -723,6 +750,9 @@ help:
 	@echo "... 146.LRU_Cache.o"
 	@echo "... 146.LRU_Cache.i"
 	@echo "... 146.LRU_Cache.s"
+	@echo "... 148.Sort_List.o"
+	@echo "... 148.Sort_List.i"
+	@echo "... 148.Sort_List.s"
 	@echo "... 15.3Sum.o"
 	@echo "... 15.3Sum.i"
 	@echo "... 15.3Sum.s"
