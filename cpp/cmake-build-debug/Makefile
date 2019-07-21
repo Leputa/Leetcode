@@ -474,6 +474,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.s
 .PHONY : 20.Valid_Parentheses.cpp.s
 
+3.Longest_Substring_Without_Repeating_Characters.o: 3.Longest_Substring_Without_Repeating_Characters.cpp.o
+
+.PHONY : 3.Longest_Substring_Without_Repeating_Characters.o
+
+# target to build an object file
+3.Longest_Substring_Without_Repeating_Characters.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/3.Longest_Substring_Without_Repeating_Characters.cpp.o
+.PHONY : 3.Longest_Substring_Without_Repeating_Characters.cpp.o
+
+3.Longest_Substring_Without_Repeating_Characters.i: 3.Longest_Substring_Without_Repeating_Characters.cpp.i
+
+.PHONY : 3.Longest_Substring_Without_Repeating_Characters.i
+
+# target to preprocess a source file
+3.Longest_Substring_Without_Repeating_Characters.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/3.Longest_Substring_Without_Repeating_Characters.cpp.i
+.PHONY : 3.Longest_Substring_Without_Repeating_Characters.cpp.i
+
+3.Longest_Substring_Without_Repeating_Characters.s: 3.Longest_Substring_Without_Repeating_Characters.cpp.s
+
+.PHONY : 3.Longest_Substring_Without_Repeating_Characters.s
+
+# target to generate assembly for a file
+3.Longest_Substring_Without_Repeating_Characters.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/3.Longest_Substring_Without_Repeating_Characters.cpp.s
+.PHONY : 3.Longest_Substring_Without_Repeating_Characters.cpp.s
+
 33.Search_in_Rotated_Sorted_Array.o: 33.Search_in_Rotated_Sorted_Array.cpp.o
 
 .PHONY : 33.Search_in_Rotated_Sorted_Array.o
@@ -765,6 +792,9 @@ help:
 	@echo "... 20.Valid_Parentheses.o"
 	@echo "... 20.Valid_Parentheses.i"
 	@echo "... 20.Valid_Parentheses.s"
+	@echo "... 3.Longest_Substring_Without_Repeating_Characters.o"
+	@echo "... 3.Longest_Substring_Without_Repeating_Characters.i"
+	@echo "... 3.Longest_Substring_Without_Repeating_Characters.s"
 	@echo "... 33.Search_in_Rotated_Sorted_Array.o"
 	@echo "... 33.Search_in_Rotated_Sorted_Array.i"
 	@echo "... 33.Search_in_Rotated_Sorted_Array.s"
