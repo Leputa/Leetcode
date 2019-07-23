@@ -23,6 +23,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/148.Sort_List.cpp.o"
   "CMakeFiles/cpp.dir/3.Longest_Substring_Without_Repeating_Characters.cpp.o"
   "CMakeFiles/cpp.dir/11.Container_With_Most_Water.cpp.o"
+  "CMakeFiles/cpp.dir/264.Ugly_Number_II.cpp.o"
   "cpp.pdb"
   "cpp"
 )

@@ -501,6 +501,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.s
 .PHONY : 20.Valid_Parentheses.cpp.s
 
+264.Ugly_Number_II.o: 264.Ugly_Number_II.cpp.o
+
+.PHONY : 264.Ugly_Number_II.o
+
+# target to build an object file
+264.Ugly_Number_II.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/264.Ugly_Number_II.cpp.o
+.PHONY : 264.Ugly_Number_II.cpp.o
+
+264.Ugly_Number_II.i: 264.Ugly_Number_II.cpp.i
+
+.PHONY : 264.Ugly_Number_II.i
+
+# target to preprocess a source file
+264.Ugly_Number_II.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/264.Ugly_Number_II.cpp.i
+.PHONY : 264.Ugly_Number_II.cpp.i
+
+264.Ugly_Number_II.s: 264.Ugly_Number_II.cpp.s
+
+.PHONY : 264.Ugly_Number_II.s
+
+# target to generate assembly for a file
+264.Ugly_Number_II.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/264.Ugly_Number_II.cpp.s
+.PHONY : 264.Ugly_Number_II.cpp.s
+
 3.Longest_Substring_Without_Repeating_Characters.o: 3.Longest_Substring_Without_Repeating_Characters.cpp.o
 
 .PHONY : 3.Longest_Substring_Without_Repeating_Characters.o
@@ -822,6 +849,9 @@ help:
 	@echo "... 20.Valid_Parentheses.o"
 	@echo "... 20.Valid_Parentheses.i"
 	@echo "... 20.Valid_Parentheses.s"
+	@echo "... 264.Ugly_Number_II.o"
+	@echo "... 264.Ugly_Number_II.i"
+	@echo "... 264.Ugly_Number_II.s"
 	@echo "... 3.Longest_Substring_Without_Repeating_Characters.o"
 	@echo "... 3.Longest_Substring_Without_Repeating_Characters.i"
 	@echo "... 3.Longest_Substring_Without_Repeating_Characters.s"

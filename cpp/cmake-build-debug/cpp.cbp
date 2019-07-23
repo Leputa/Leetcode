@@ -122,6 +122,9 @@
 		<Unit filename="/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/20.Valid Parentheses.cpp">
 			<Option target="cpp"/>
 		</Unit>
+		<Unit filename="/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/264.Ugly Number II.cpp">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/Users/limengyuan/Documents/Computer Science/LeetCode/cpp/3.Longest Substring Without Repeating Characters.cpp">
 			<Option target="cpp"/>
 		</Unit>
