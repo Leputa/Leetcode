@@ -609,6 +609,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.s
 .PHONY : 42.Trapping_Rain_Water.cpp.s
 
+56._Merge_Intervals.o: 56._Merge_Intervals.cpp.o
+
+.PHONY : 56._Merge_Intervals.o
+
+# target to build an object file
+56._Merge_Intervals.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/56._Merge_Intervals.cpp.o
+.PHONY : 56._Merge_Intervals.cpp.o
+
+56._Merge_Intervals.i: 56._Merge_Intervals.cpp.i
+
+.PHONY : 56._Merge_Intervals.i
+
+# target to preprocess a source file
+56._Merge_Intervals.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/56._Merge_Intervals.cpp.i
+.PHONY : 56._Merge_Intervals.cpp.i
+
+56._Merge_Intervals.s: 56._Merge_Intervals.cpp.s
+
+.PHONY : 56._Merge_Intervals.s
+
+# target to generate assembly for a file
+56._Merge_Intervals.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/56._Merge_Intervals.cpp.s
+.PHONY : 56._Merge_Intervals.cpp.s
+
 84.Largest_Rectangle_in_Histogram.o: 84.Largest_Rectangle_in_Histogram.cpp.o
 
 .PHONY : 84.Largest_Rectangle_in_Histogram.o
@@ -861,6 +888,9 @@ help:
 	@echo "... 42.Trapping_Rain_Water.o"
 	@echo "... 42.Trapping_Rain_Water.i"
 	@echo "... 42.Trapping_Rain_Water.s"
+	@echo "... 56._Merge_Intervals.o"
+	@echo "... 56._Merge_Intervals.i"
+	@echo "... 56._Merge_Intervals.s"
 	@echo "... 84.Largest_Rectangle_in_Histogram.o"
 	@echo "... 84.Largest_Rectangle_in_Histogram.i"
 	@echo "... 84.Largest_Rectangle_in_Histogram.s"

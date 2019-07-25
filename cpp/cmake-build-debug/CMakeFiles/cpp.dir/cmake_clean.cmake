@@ -24,6 +24,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/3.Longest_Substring_Without_Repeating_Characters.cpp.o"
   "CMakeFiles/cpp.dir/11.Container_With_Most_Water.cpp.o"
   "CMakeFiles/cpp.dir/264.Ugly_Number_II.cpp.o"
+  "CMakeFiles/cpp.dir/56._Merge_Intervals.cpp.o"
   "cpp.pdb"
   "cpp"
 )
