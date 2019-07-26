@@ -27,6 +27,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/56._Merge_Intervals.cpp.o"
   "CMakeFiles/cpp.dir/173.Binary_Search_Tree_Iterator.cpp.o"
   "CMakeFiles/cpp.dir/48.Rotate_Image.cpp.o"
+  "CMakeFiles/cpp.dir/236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.o"
   "cpp.pdb"
   "cpp"
 )

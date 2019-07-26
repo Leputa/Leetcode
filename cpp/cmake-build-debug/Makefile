@@ -528,6 +528,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/20.Valid_Parentheses.cpp.s
 .PHONY : 20.Valid_Parentheses.cpp.s
 
+236._Lowest_Common_Ancestor_of_a_Binary_Tree.o: 236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.o
+
+.PHONY : 236._Lowest_Common_Ancestor_of_a_Binary_Tree.o
+
+# target to build an object file
+236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.o
+.PHONY : 236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.o
+
+236._Lowest_Common_Ancestor_of_a_Binary_Tree.i: 236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.i
+
+.PHONY : 236._Lowest_Common_Ancestor_of_a_Binary_Tree.i
+
+# target to preprocess a source file
+236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.i
+.PHONY : 236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.i
+
+236._Lowest_Common_Ancestor_of_a_Binary_Tree.s: 236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.s
+
+.PHONY : 236._Lowest_Common_Ancestor_of_a_Binary_Tree.s
+
+# target to generate assembly for a file
+236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.s
+.PHONY : 236._Lowest_Common_Ancestor_of_a_Binary_Tree.cpp.s
+
 264.Ugly_Number_II.o: 264.Ugly_Number_II.cpp.o
 
 .PHONY : 264.Ugly_Number_II.o
@@ -933,6 +960,9 @@ help:
 	@echo "... 20.Valid_Parentheses.o"
 	@echo "... 20.Valid_Parentheses.i"
 	@echo "... 20.Valid_Parentheses.s"
+	@echo "... 236._Lowest_Common_Ancestor_of_a_Binary_Tree.o"
+	@echo "... 236._Lowest_Common_Ancestor_of_a_Binary_Tree.i"
+	@echo "... 236._Lowest_Common_Ancestor_of_a_Binary_Tree.s"
 	@echo "... 264.Ugly_Number_II.o"
 	@echo "... 264.Ugly_Number_II.i"
 	@echo "... 264.Ugly_Number_II.s"
