@@ -26,6 +26,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/264.Ugly_Number_II.cpp.o"
   "CMakeFiles/cpp.dir/56._Merge_Intervals.cpp.o"
   "CMakeFiles/cpp.dir/173.Binary_Search_Tree_Iterator.cpp.o"
+  "CMakeFiles/cpp.dir/48.Rotate_Image.cpp.o"
   "cpp.pdb"
   "cpp"
 )

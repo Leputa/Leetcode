@@ -636,6 +636,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/42.Trapping_Rain_Water.cpp.s
 .PHONY : 42.Trapping_Rain_Water.cpp.s
 
+48.Rotate_Image.o: 48.Rotate_Image.cpp.o
+
+.PHONY : 48.Rotate_Image.o
+
+# target to build an object file
+48.Rotate_Image.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/48.Rotate_Image.cpp.o
+.PHONY : 48.Rotate_Image.cpp.o
+
+48.Rotate_Image.i: 48.Rotate_Image.cpp.i
+
+.PHONY : 48.Rotate_Image.i
+
+# target to preprocess a source file
+48.Rotate_Image.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/48.Rotate_Image.cpp.i
+.PHONY : 48.Rotate_Image.cpp.i
+
+48.Rotate_Image.s: 48.Rotate_Image.cpp.s
+
+.PHONY : 48.Rotate_Image.s
+
+# target to generate assembly for a file
+48.Rotate_Image.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/48.Rotate_Image.cpp.s
+.PHONY : 48.Rotate_Image.cpp.s
+
 56._Merge_Intervals.o: 56._Merge_Intervals.cpp.o
 
 .PHONY : 56._Merge_Intervals.o
@@ -918,6 +945,9 @@ help:
 	@echo "... 42.Trapping_Rain_Water.o"
 	@echo "... 42.Trapping_Rain_Water.i"
 	@echo "... 42.Trapping_Rain_Water.s"
+	@echo "... 48.Rotate_Image.o"
+	@echo "... 48.Rotate_Image.i"
+	@echo "... 48.Rotate_Image.s"
 	@echo "... 56._Merge_Intervals.o"
 	@echo "... 56._Merge_Intervals.i"
 	@echo "... 56._Merge_Intervals.s"
