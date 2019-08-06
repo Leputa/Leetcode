@@ -744,6 +744,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/56._Merge_Intervals.cpp.s
 .PHONY : 56._Merge_Intervals.cpp.s
 
+560._Subarray_Sum_Equals_K.o: 560._Subarray_Sum_Equals_K.cpp.o
+
+.PHONY : 560._Subarray_Sum_Equals_K.o
+
+# target to build an object file
+560._Subarray_Sum_Equals_K.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/560._Subarray_Sum_Equals_K.cpp.o
+.PHONY : 560._Subarray_Sum_Equals_K.cpp.o
+
+560._Subarray_Sum_Equals_K.i: 560._Subarray_Sum_Equals_K.cpp.i
+
+.PHONY : 560._Subarray_Sum_Equals_K.i
+
+# target to preprocess a source file
+560._Subarray_Sum_Equals_K.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/560._Subarray_Sum_Equals_K.cpp.i
+.PHONY : 560._Subarray_Sum_Equals_K.cpp.i
+
+560._Subarray_Sum_Equals_K.s: 560._Subarray_Sum_Equals_K.cpp.s
+
+.PHONY : 560._Subarray_Sum_Equals_K.s
+
+# target to generate assembly for a file
+560._Subarray_Sum_Equals_K.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/560._Subarray_Sum_Equals_K.cpp.s
+.PHONY : 560._Subarray_Sum_Equals_K.cpp.s
+
 84.Largest_Rectangle_in_Histogram.o: 84.Largest_Rectangle_in_Histogram.cpp.o
 
 .PHONY : 84.Largest_Rectangle_in_Histogram.o
@@ -1011,6 +1038,9 @@ help:
 	@echo "... 56._Merge_Intervals.o"
 	@echo "... 56._Merge_Intervals.i"
 	@echo "... 56._Merge_Intervals.s"
+	@echo "... 560._Subarray_Sum_Equals_K.o"
+	@echo "... 560._Subarray_Sum_Equals_K.i"
+	@echo "... 560._Subarray_Sum_Equals_K.s"
 	@echo "... 84.Largest_Rectangle_in_Histogram.o"
 	@echo "... 84.Largest_Rectangle_in_Histogram.i"
 	@echo "... 84.Largest_Rectangle_in_Histogram.s"
