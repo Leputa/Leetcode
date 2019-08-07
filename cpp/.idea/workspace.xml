@@ -35,10 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/103. Binary Tree Zigzag Level Order Traversal.cpp">
+        <entry file="file://$PROJECT_DIR$/560. Subarray Sum Equals K.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -47,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/560. Subarray Sum Equals K.cpp">
+        <entry file="file://$PROJECT_DIR$/873.Length of Longest Fibonacci Subsequence.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="495">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -159,13 +159,13 @@
         <option value="$PROJECT_DIR$/236. Lowest Common Ancestor of a Binary Tree.cpp" />
         <option value="$PROJECT_DIR$/103. Binary Tree Zigzag Level Order Traversal.cpp" />
         <option value="$PROJECT_DIR$/560. Subarray Sum Equals K.cpp" />
+        <option value="$PROJECT_DIR$/873.Length of Longest Fibonacci Subsequence.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="24" />
-    <option name="width" value="857" />
+    <option name="y" value="23" />
+    <option name="width" value="791" />
     <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -233,18 +233,18 @@
       <workItem from="1563690885945" duration="5097000" />
       <workItem from="1563979339129" duration="2690000" />
       <workItem from="1564151027463" duration="2036000" />
-      <workItem from="1564376453974" duration="3518000" />
+      <workItem from="1564376453974" duration="6852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40753000" />
+    <option name="totallyTimeSpent" value="44087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="24" width="857" height="815" extended-state="0" />
+    <frame x="0" y="23" width="791" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27361962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1495327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -627,7 +627,17 @@
     <entry file="file://$PROJECT_DIR$/560. Subarray Sum Equals K.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/873.Length of Longest Fibonacci Subsequence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
