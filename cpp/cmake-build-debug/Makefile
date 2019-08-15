@@ -636,6 +636,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/3.Longest_Substring_Without_Repeating_Characters.cpp.s
 .PHONY : 3.Longest_Substring_Without_Repeating_Characters.cpp.s
 
+322.Coin_Change.o: 322.Coin_Change.cpp.o
+
+.PHONY : 322.Coin_Change.o
+
+# target to build an object file
+322.Coin_Change.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/322.Coin_Change.cpp.o
+.PHONY : 322.Coin_Change.cpp.o
+
+322.Coin_Change.i: 322.Coin_Change.cpp.i
+
+.PHONY : 322.Coin_Change.i
+
+# target to preprocess a source file
+322.Coin_Change.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/322.Coin_Change.cpp.i
+.PHONY : 322.Coin_Change.cpp.i
+
+322.Coin_Change.s: 322.Coin_Change.cpp.s
+
+.PHONY : 322.Coin_Change.s
+
+# target to generate assembly for a file
+322.Coin_Change.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/322.Coin_Change.cpp.s
+.PHONY : 322.Coin_Change.cpp.s
+
 33.Search_in_Rotated_Sorted_Array.o: 33.Search_in_Rotated_Sorted_Array.cpp.o
 
 .PHONY : 33.Search_in_Rotated_Sorted_Array.o
@@ -1053,6 +1080,9 @@ help:
 	@echo "... 3.Longest_Substring_Without_Repeating_Characters.o"
 	@echo "... 3.Longest_Substring_Without_Repeating_Characters.i"
 	@echo "... 3.Longest_Substring_Without_Repeating_Characters.s"
+	@echo "... 322.Coin_Change.o"
+	@echo "... 322.Coin_Change.i"
+	@echo "... 322.Coin_Change.s"
 	@echo "... 33.Search_in_Rotated_Sorted_Array.o"
 	@echo "... 33.Search_in_Rotated_Sorted_Array.i"
 	@echo "... 33.Search_in_Rotated_Sorted_Array.s"
