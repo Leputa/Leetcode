@@ -10,24 +10,28 @@ class TreeNode:
 class Solution:
     # 返回二维列表，内部每个列表表示找到的路径
     def FindPath(self, root, expectNumber):
-        # write code here
-        ans = []
-        path = []
+        ret = []
         if root == None:
-            return path
-        self.searchPath(root,expectNumber,ans,path)
-        return ans
+            return ret
+        self.pathSum(root, expectNumber, 0, [], ret)
+        return sorted(ret, key = lambda info: len(info), reverse=True)
 
-    def searchPath(self,root,expectNumber,ans,path):
-        path.append(root.val)
-        if root.left == None and root.right == None:
-            if sum(path) == expectNumber:
-                ans.append(path[:])
-        if root.left != None:
-            self.searchPath(root.left, expectNumber, ans, path)
-        if root.right != None:
-            self.searchPath(root.right, expectNumber, ans, path)
-        path.pop()
+    def pathSum(self, tmpNode, expectNumber, tmpSum, tmpList, ret):
+        tmpList.append(tmpNode.val)
+        tmpSum += tmpNode.val
+
+        if tmpNode.left == None and tmpNode.right == None:
+            if tmpSum == expectNumber:
+                ret.append(tmpList[:])
+        else:
+            if tmpNode.left != None:
+                self.pathSum(tmpNode.left, expectNumber, tmpSum, tmpList, ret)
+            if tmpNode.right != None:
+                self.pathSum(tmpNode.right, expectNumber, tmpSum, tmpList, ret)
+
+        tmpList.pop()
+        tmpSum -= tmpNode.val
+
 
 
 
