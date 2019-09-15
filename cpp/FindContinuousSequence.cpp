@@ -1,5 +1,4 @@
 #include <vector>
-#include <iostream>
 using namespace std;
 
 class Solution {
@@ -15,8 +14,8 @@ public:
                 tmplist.push_back(j);
                 if (tmp_sum > sum) break;
                 else if(tmp_sum == sum){
-                    cout << "2b" << endl;
-                    ret.push_back(tmplist);
+                    if(tmplist.size()>1)
+                        ret.push_back(tmplist);
                     break;
                 }
             }
@@ -24,10 +23,3 @@ public:
         return ret;
     }
 };
-
-
-int main(){
-    Solution solutino = Solution();
-    solutino.FindContinuousSequence(3);
-    return 0;
-}
