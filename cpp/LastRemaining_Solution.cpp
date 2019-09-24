@@ -25,7 +25,8 @@ public:
             ++cnt;
         }
         for (int i=0; i<flags.size(); i++)
-            if (!flags[i]) return i;
+            if (!flags[i]) 
+                return i;
     }
 };
 
